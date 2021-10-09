@@ -1,2 +1,2 @@
 // Import stylesheets
-import './for.js';
+import './cyklus3.js';
