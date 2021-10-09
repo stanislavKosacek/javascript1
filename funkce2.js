@@ -4,13 +4,15 @@
 // - v prvni moment predpokladejme, ze cislo JE prvocislo a budeme pripadne rosporovat toto tvrzeni.
 
 function jePrvocislo(cislo) {
+  let jePrivocislo = true;
   for (let i = 2; i < cislo; i++) {
     if (cislo % i === 0) {
-      return false;
+      console.log('Číslo ' + cislo + ' je dělitelné: ' + i);
+      jePrivocislo = false;
     }
   }
 
-  return true;
+  return jePrivocislo;
 }
 
 let vstup = Number(prompt('Zadej číslo:'));
