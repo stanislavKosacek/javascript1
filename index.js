@@ -1,2 +1,2 @@
 // Import stylesheets
-import './cyklus3.js';
+import './funkce1.js';
