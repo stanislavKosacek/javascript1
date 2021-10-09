@@ -1,2 +1,2 @@
 // Import stylesheets
-import './funkce1.js';
+import './funkce2.js';
