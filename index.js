@@ -1,2 +1,2 @@
 // Import stylesheets
-import './while.js';
+import './for.js';
