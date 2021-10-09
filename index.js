@@ -1,2 +1,2 @@
 // Import stylesheets
-import './funkce2.js';
+import './pole.js';
